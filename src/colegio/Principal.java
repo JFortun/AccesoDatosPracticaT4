@@ -46,7 +46,7 @@ public class Principal {
 			Clases clase1[] = new Clases[1];
 			clase1[0] = asignatura1;
 			// Guarda las relaciones de la clase con las asignaturas
-			profesor1.setEscribe(clase1);
+			profesor1.setImparten(clase1);
 			// Ejecuta un commit para materializar las peticiones.
 			db.commit(); 
 			// Cierra la   base de datos.
